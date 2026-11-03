@@ -1,0 +1,25 @@
+=== Langkah 1: refactoring canWithdraw ===
+A001 - Nadia - balance: 350000.0
+A002 - Sari - balance: 200000.0
+
+=== Langkah 2: override SavingsAccount ===
+Withdraw 70000 allowed? false
+A003 - Rian - balance: 100000.0
+Account type: Savings, interest rate: 0.02
+
+=== Langkah 3: override CheckingAccount ===
+Withdraw 250000 allowed? true
+A003 - Rian - balance: 100000.0
+Account type: Savings, interest rate: 0.02
+A004 - Dewi - balance: -150000.0
+Account type: Checking, overdraft limit: 200000.0
+
+=== Langkah 4: overloading deposit ===
+A003 deposit note: Initial top-up
+A003 - Rian - balance: 150000.0
+Account type: Savings, interest rate: 0.02
+
+=== Tugas Mandiri 1: BusinessAccount ===
+Withdraw 1500000 allowed? false
+A005 - PT Maju Jaya - balance: 2000000.0
+Account type: Business, monthly fee: 25000.0
